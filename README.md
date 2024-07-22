@@ -240,8 +240,6 @@ We use GitHub Issues as the official bug tracker for the Material Kit. Here are 
 
 ### Social Media
 
-Twitter: <https://twitter.com/CreativeTim?ref=creativetim>
-
 Facebook: <https://www.facebook.com/CreativeTim?ref=creativetim>
 
 Dribbble: <https://dribbble.com/creativetim?ref=creativetim>
