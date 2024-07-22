@@ -29,11 +29,11 @@ const Footer = () => {
             © {new Date().getFullYear()}{" "}
             <a
               className="font-weight-bold ml-1"
-              href="https://www.creative-tim.com?ref=adr-admin-footer"
+              href="https://www.sc.com/en/"
               rel="noopener noreferrer"
               target="_blank"
             >
-              Creative Tim
+              Standard Chartered
             </a>
           </div>
         </Col>
@@ -42,17 +42,27 @@ const Footer = () => {
           <Nav className="nav-footer justify-content-center justify-content-xl-end">
             <NavItem>
               <NavLink
-                href="https://www.creative-tim.com?ref=adr-admin-footer"
+                href="https://www.sc.com/en/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                Creative Tim
+                Standard Chartered
               </NavLink>
             </NavItem>
 
             <NavItem>
               <NavLink
-                href="https://www.creative-tim.com/presentation?ref=adr-admin-footer"
+                href="https://www.sc.com/in/investment/sc-invest-mutual-fund-platform/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                SC Invest
+              </NavLink>
+            </NavItem>
+
+            <NavItem>
+              <NavLink
+                href="https://www.sc.com/in/about-us/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -60,25 +70,17 @@ const Footer = () => {
               </NavLink>
             </NavItem>
 
-            <NavItem>
+            {/* <NavItem>
               <NavLink
-                href="http://blog.creative-tim.com?ref=adr-admin-footer"
-                rel="noopener noreferrer"
-                target="_blank"
+              href="http://blog.creative-tim.com?ref=adr-admin-footer"
+              rel="noopener noreferrer"
+              target="_blank"
               >
-                Blog
+              Blog
               </NavLink>
-            </NavItem>
+              </NavItem> */}
 
-            <NavItem>
-              <NavLink
-                href="https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md?ref=adr-admin-footer"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                MIT License
-              </NavLink>
-            </NavItem>
+
           </Nav>
         </Col>
       </Row>
