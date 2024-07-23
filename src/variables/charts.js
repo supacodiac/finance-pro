@@ -319,7 +319,7 @@ let chartExample1 = {
           ticks: {
             callback: function (value) {
               if (!(value % 10)) {
-                return "$" + value + "k";
+                return value + "k";
               }
             },
           },
@@ -337,7 +337,7 @@ let chartExample1 = {
             content += label;
           }
 
-          content += "$" + yLabel + "k";
+          content += yLabel + "k";
           return content;
         },
       },
@@ -345,11 +345,11 @@ let chartExample1 = {
   },
   data1: (canvas) => {
     return {
-      labels: ["May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      labels: [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
       datasets: [
         {
           label: "Performance",
-          data: [0, 20, 10, 30, 15, 40, 20, 60, 60],
+          data: [0, 13, 16, 21, 18, 15, 20, 22, 24],
         },
       ],
     };
