@@ -25,6 +25,7 @@ import AdminFooter from "components/Footers/AdminFooter.js";
 import Sidebar from "components/Sidebar/Sidebar.js";
 
 import routes from "routes.js";
+import Assessment from "views/examples/Assessment";
 
 const Admin = (props) => {
   const mainContent = React.useRef(null);
@@ -78,6 +79,7 @@ const Admin = (props) => {
         />
         <Routes>
           {getRoutes(routes)}
+          <Route path="assessment/*" element={<Assessment />} />
           <Route path="*" element={<Navigate to="/admin/index" replace />} />
         </Routes>
         <Container fluid>
