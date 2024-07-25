@@ -36,10 +36,10 @@ const Header = () => {
                           tag="h5"
                           className="text-uppercase text-muted mb-0"
                         >
-                          Traffic
+                          Nifty 50
                         </CardTitle>
                         <span className="h2 font-weight-bold mb-0">
-                          350,897
+                          24,479.50
                         </span>
                       </div>
                       <Col className="col-auto">
@@ -50,7 +50,7 @@ const Header = () => {
                     </Row>
                     <p className="mt-3 mb-0 text-muted text-sm">
                       <span className="text-success mr-2">
-                        <i className="fa fa-arrow-up" /> 3.48%
+                        <i className="fa fa-arrow-up" /> 1.48%
                       </span>{" "}
                       <span className="text-nowrap">Since last month</span>
                     </p>
@@ -66,9 +66,9 @@ const Header = () => {
                           tag="h5"
                           className="text-uppercase text-muted mb-0"
                         >
-                          New users
+                          SENSEX
                         </CardTitle>
-                        <span className="h2 font-weight-bold mb-0">2,356</span>
+                        <span className="h2 font-weight-bold mb-0">80,429</span>
                       </div>
                       <Col className="col-auto">
                         <div className="icon icon-shape bg-warning text-white rounded-circle shadow">
@@ -78,7 +78,7 @@ const Header = () => {
                     </Row>
                     <p className="mt-3 mb-0 text-muted text-sm">
                       <span className="text-danger mr-2">
-                        <i className="fas fa-arrow-down" /> 3.48%
+                        <i className="fas fa-arrow-down" /> 0.98%
                       </span>{" "}
                       <span className="text-nowrap">Since last week</span>
                     </p>
@@ -94,7 +94,7 @@ const Header = () => {
                           tag="h5"
                           className="text-uppercase text-muted mb-0"
                         >
-                          Sales
+                          S&P500
                         </CardTitle>
                         <span className="h2 font-weight-bold mb-0">924</span>
                       </div>
@@ -122,7 +122,7 @@ const Header = () => {
                           tag="h5"
                           className="text-uppercase text-muted mb-0"
                         >
-                          Performance
+                          NASDAQ
                         </CardTitle>
                         <span className="h2 font-weight-bold mb-0">49,65%</span>
                       </div>

@@ -31,7 +31,8 @@
         letter-spacing: .05px;
 
         img {
-            height: 30px;
+            height: 90px;
+            border-radius: 5px;
         }
     }
 
@@ -48,11 +49,11 @@
     }
 
     .navbar-nav {
-      .nav-item {
-        .media:not(:last-child){
-          margin-bottom: 1.5rem;
+        .nav-item {
+            .media:not(:last-child) {
+                margin-bottom: 1.5rem;
+            }
         }
-      }
     }
 
     @include media-breakpoint-up(lg) {
@@ -70,6 +71,7 @@
                     }
                 }
             }
+
             .nav-link {
                 padding-top: $navbar-nav-link-padding-y;
                 padding-bottom: $navbar-nav-link-padding-y;
@@ -133,8 +135,8 @@
                     }
                 }
 
-                .show > .nav-link,
-                .active > .nav-link,
+                .show>.nav-link,
+                .active>.nav-link,
                 .nav-link.show,
                 .nav-link.active {
                     color: $navbar-dark-active-color;
